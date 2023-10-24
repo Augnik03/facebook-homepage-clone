@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f1f2f6;
+}
+
+.active {
+  @apply border-b-4 border-primary;
+}
+
+.badge {
+  @apply absolute rounded-full bg-red-500 text-white w-5 h-5 pt-0.5 text-xs text-center bottom-7 left-7;
+}
